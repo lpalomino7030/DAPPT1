@@ -53,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Gataway.executor&quot;: &quot;Run&quot;,
     &quot;Application.clientes.executor&quot;: &quot;Run&quot;,
     &quot;Application.eureka.executor&quot;: &quot;Run&quot;,
     &quot;Application.pedido.executor&quot;: &quot;Run&quot;,
@@ -79,6 +80,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.clientes">
+    <configuration name="Gataway" type="Application" factoryName="Application" folderName="DevFoods">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cibertec.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="clientes" type="Application" factoryName="Application" folderName="DevFoods">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -107,6 +117,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Gataway" />
       <item itemvalue="Application.pedido" />
       <item itemvalue="Application.clientes" />
       <item itemvalue="Application.eureka" />
